@@ -1,0 +1,192 @@
+body{
+  background-color:#001f3f;
+}
+  
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+}
+  
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+
+.todoListMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+  
+
+.todoListMain .theList {
+  list-style: none;
+  padding-left: 0;
+  width: 250px;
+} 
+
+.todoListMain .theList li {
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+ul .theList {
+  padding: 0;
+}
+
+
+
+.txt{
+  position: absolute;
+  left:30%;
+  top: 25%;
+  z-index: 4;
+  color: rgb(222, 236, 17);
+  text-align: center;
+}
+
+.card{
+  align-items: center;
+  height: 10%;
+  width:35%;
+  border: darkslategray;
+  margin-top:15%;
+  margin-left:37%;
+  background-color: lightsalmon;
+}
+
+.blog-container{
+
+ position:fixed;
+ height:450px;
+ width:350px;
+ border: 3px black solid;
+ align-content: flex-start;
+ background-color: whitesmoke;
+ margin:10px;
+ 
+}
+
+.blog-container textarea{
+
+width: 340px;
+height: 200px;
+overflow:scroll;
+}
+
+.blog-container:hover{
+
+  background-color: lightblue;
+}
+.blog-container .title{
+
+  margin-top: 30px;
+  
+}
+.blog-container button{
+
+  background: darkslategray;
+  color: #FFF;
+  margin-left:120px;
+}
+.blog-container button:hover{
+
+  background-color: black;
+}
+
+.displayblog{
+
+  
+  height: 550px;
+  width:750px;
+  margin-left:400px ;
+  margin-top: 40px;
+  background-color: darkgrey;
+  word-wrap: break-word;
+  overflow:scroll;
+  border: 3px black solid;
+  outline: 0.5rem solid lightseagreen;
+  box-shadow: 5px 5px 5px 5px greenyellow;
+}
+
+.blogarray{
+ background-color: lightseagreen;
+ box-shadow: 1px 3px 3px 3px lightslategray;
+ margin: 10px;
+
+}
+
+.blogarray h3{
+ text-align: center;
+ color: mintcream;
+}
+
+.blogarray button{
+
+  color:white;
+  background-color: rgb(228, 70, 70);
+  margin-left: 650px;
+  
+}
+
+.card{
+  margin: 30px;
+  width:200px;
+  background-color: rgb(47, 77, 95);
+  border: 2px solid white;
+  
+}
+.card:hover{
+  box-shadow: 2px 2px 5px 5px white;
+}
+.card img{
+  
+  height: 150px;
+}
+.card .card-body {
+  width:200px;
+  font-size: small;
+  background-color: rgb(112, 94, 112);
+  color:white;
+  border: 2px solid white;
+  
+}
+
+.card .card-body:hover{
+  box-shadow: 2px 2px 5px 5px white;
+}
+
+.input{
+width: 200px;
+height: 70px;
+background-color: rgb(216, 216, 204);
+color: black;
+font-weight: bolder;
+font-size: xx-large;
+}
+
+.button{
+ height:50px ;
+ width:50px ;
+ 
+}
+button:hover{
+  background-color: darkgrey;
+}
+.calci{
+  border:5px solid black;
+  height:280px ;
+  width: 210px;
+  margin: 40px;
+  
+  
+}
